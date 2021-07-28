@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<h1 id="title">House Buying in 2021</h1>
+<p id="description">Is now a good time to buy a house?</p>
+
+<!--Text fields-->
+ <div class="form-input">
+<form id="survey-form" action="example.php">
+   <label for="name" id="name-label">Name:</label>
+    <input type="text" placeholder="Enter name here" id="name" name="name" required><br>
+  
+    <label for="email" id="email-label">Email:</label>
+    <input type="email" placeholder="123@gmail.com" id="email" name="email" required><br>
+  
+    <label for="number" id="number-label">Age(optional):</label>
+    <input type="number" placeholder="enter age" id="number" name="number" min=18 max=100><br>
+  </form>
+  </div>
+
+
+  <!-- dropdown menu-->
+
+ <form id="survey-form">
+  <div class="question">
+     <label for="dropdown">What are you in the market for?</label>
+         <select id="dropdown" name="house-types">
+                <option value="">--Please choose an option--</option>
+                <option value="condo">Condo</option>
+                <option value="townhouse">Townhouse</option>
+                <option value="single-family">Single-family</option>
+                <option value="manufactured">Manufactured home</option>
+                <option value="tiny-home">Tiny Home</option>
+                <option value="undecided">Undecided</option>
+            </select>
+          </div>
+   </form>
+ 
+
+    <!-- radio buttons-->
+<div class="r-buttons">
+    <p>How much are you willing to pay above asking price?</p>
+    <form id="survey-form">
+         <input type="radio" id="twenty" name="percentage" value="twenty-percent">
+         <label for="twenty">20% or more above asking price. I am getting a house one way or another!</label><br>
+
+         <input type="radio" id="ten" name="percentage" value="ten-percent">
+         <label for="ten">10% above asking price. I'll do a little bidding, but I have my limits.</label><br>
+
+         <input type="radio" id="zero" name="percentage" value="zero-percent">
+         <label for="zero">0%. No thanks, I rather wait out the market.</label>
+     </form>
+
+</div>
+<!-- check boxes-->
+<div class="houses">
+<form id="survey-form">
+   <p>What style of homes are you interested in?(check all that apply)</p>
+  <input type="checkbox" id="house1" name="style" value="Contemporary">
+  <label for="house1">Contemporary</label><br>
+
+  <input type="checkbox" id="house2" name="style" value="Modern">
+  <label for="house2">Modern</label><br>
+
+  <input type="checkbox" id="house3" name="style" value="Ranch">
+  <label for="house3">Ranch</label><br>
+
+  <input type="checkbox" id="house4" name="style" value="Traditional">
+  <label for="house4">Traditional</label><br>
+
+  <input type="checkbox" id="house5" name="style" value="Mediterranean">
+  <label for="house5">Mediterranean</label><br>
+
+  <input type="checkbox" id="house6" name="style" value="Cape-Cod">
+  <label for="house6">Cape-Cod</label><br>
+
+  <input type="checkbox" id="house7" name="style" value="Craftsmen">
+  <label for="house7">Craftsmen</label><br>
+
+  <input type="checkbox" id="house8" name="style" value="Cottage">
+  <label for="house8">Cottage</label>
+</form>
+</div>
+
+<!-- text area-->
+
+<div class="last-section">
+<form id="survey-form">
+    <p>What would be your advice for first-time home buyers?</p>
+      <textarea rows="4" cols="50" name="comment" form="usrform">Enter your comment here</textarea>
+ 
+<!--submit button-->
+
+   <button id="submit">Submit</button>
+  </form>
+</div>
+</body>
+</html>
+

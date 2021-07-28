@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body{
+ background-color: #878F8E;
+  text-align: center;
+  font-size: 20px;
+}
+
+#title{
+  text-decoration: underline;
+  font-size: 60px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+p{
+  font-size: 35px;
+}
+
+#name-label,#email-label, #number-label{
+  font-weight: bold;
+}
+
+.question{
+  font-weight: bold;
+}
+
+
+
+#description{
+  font-size: 45px;
+}
+
+.r-buttons{
+    display:inline-block
+}
+
+
+#submit:hover{
+  font-size: 25px;
+}
+
+#submit{
+  border-radius: 50px;
+  font-size: 25px;
+/*   display: flex; */
+  margin: 10px
+
+}
+
+
